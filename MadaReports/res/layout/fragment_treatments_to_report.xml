@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/all_treatments_textview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        style="@style/TextHeader2"
+        android:gravity="center"
+        android:text="@string/fragment_treatments_to_report_all_treatments_in_db" />
+
+    <TextView
+        android:id="@+id/treatment_of_report_textview"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        style="@style/TextHeader2"
+        android:text="@string/fragment_treatments_to_report_current_treatments_to_report" />
+
+    <ListView
+        android:id="@+id/all_treatments_list"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/all_treatments_textview" />
+
+    <ListView
+        android:id="@+id/treatments_of_report_list"
+        android:layout_width="150dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/treatment_of_report_textview" />
+        
+
+</RelativeLayout>

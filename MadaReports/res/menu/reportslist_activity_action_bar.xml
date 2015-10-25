@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mada="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/reportslist_activity_menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/action_bar_search"
+        mada:actionLayout="@layout/searchview_reportslist"
+        mada:actionViewClass="android.widget.EditText"
+        mada:showAsAction="always|collapseActionView"/>
+    <item
+        android:id="@+id/reportslist_activity_menu_delete_all"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/action_bar_delete"
+        mada:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/reportslist_activity_menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/action_bar_share"
+        mada:showAsAction="ifRoom"/>
+
+</menu>

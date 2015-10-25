@@ -1,0 +1,270 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textColor">@color/activity_text_color</item>
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/MdaActionBar</item>
+        <item name="android:actionBarTabStyle" tools:targetApi="11">@style/MdaActionBarTab</item>
+        <item name="android:actionBarTabTextStyle" tools:targetApi="11">@style/MdaActionBarTabText</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MdaActionBar</item>
+        <item name="actionBarTabStyle">@style/MdaActionBarTab</item>
+        <item name="actionBarTabTextStyle">@style/MdaActionBarTabText</item>
+    </style>  
+
+    <!-- Help showcase -->
+    <style name="ShowcaseView">
+        <item name="sv_backgroundColor">#6633B5E5</item>
+    </style>
+
+    <style name="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#3333B5E5</item>
+    </style>
+
+    <style name="TextAppearance.ShowcaseView.Title" parent="android:style/TextAppearance.Large">
+        <item name="android:textColor">#33B5E5</item>
+    </style>
+
+    <!-- ActionBar -->
+    <style name="MdaActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/actionbar_color</item>
+        <item name="android:titleTextStyle" tools:targetApi="11">@style/MdaActionBarTextStyle</item>
+    </style>
+
+    <style name="MdaActionBarTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+
+    <style name="MdaActionBarTab" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">        
+		<item name="android:background">@drawable/tab_indicator</item>
+    </style>
+
+    <style name="MdaActionBarTabText" parent="@style/Widget.AppCompat.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/actionbar_tab_text_color</item>
+    </style>
+
+    <!-- Empty views -->
+    <style name="EmptyText">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#aaa</item>
+    </style>
+
+    <!-- Body content -->
+    <style name="TextHeader">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textIsSelectable" tools:targetApi="11">true</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+
+    <style name="TextHeaderSub">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/body_text_2</item>
+        <item name="android:textIsSelectable" tools:targetApi="11">true</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+
+    <style name="TextHeader2">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/accent_1</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:background">@drawable/text_bottom_border</item>
+        <item name="android:textAllCaps" tools:targetApi="14">true</item>
+    </style>
+
+    <style name="TextHeader3">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:textIsSelectable" tools:targetApi="11">true</item>
+    </style>
+
+    <style name="TextBody">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:textIsSelectable" tools:targetApi="11">true</item>
+        <item name="android:textAlignment" tools:targetApi="17">textStart</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif-light</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+          
+    
+    <!-- List item text -->
+    <style name="ListItemTitle" parent="TextTitle">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="ListItemTitle.ComplexContent">
+        <item name="android:paddingLeft">?listPreferredItemPaddingLeft</item>
+        <item name="android:paddingRight">?listPreferredItemPaddingRight</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+
+    <style name="ListItemTitle.ComplexContent.Inset">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+    <style name="ListItemTitle.Inverse">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/body_text_1_inverse</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+
+    <style name="ListItemSubtitle">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/body_text_2</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+
+    <style name="ListItemSubtitle.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/body_text_2</item>
+    </style>
+
+    <style name="ListItemSubtitle.Inverse">
+        <item name="android:textColor">@color/body_text_2_inverse</item>
+        <item name="android:textAlignment" tools:targetApi="17">viewStart</item>
+    </style>
+
+    <!-- Reports List -->
+    <style name="ReportsList"></style>
+
+    <style name="ReportsListItem.FooterText" parent="@style/ListItemTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="ReportsListItem.HeaderText" parent="@style/ListItemSubtitle.Bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layoutDirection" tools:targetApi="17">rtl</item>
+        <item name="android:textDirection" tools:targetApi="17">anyRtl</item>
+    </style>
+
+    <style name="ReportsListItem.SubHeaderText" parent="@style/ListItemSubtitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layoutDirection" tools:targetApi="17">rtl</item>
+        <item name="android:textDirection" tools:targetApi="17">anyRtl</item>
+    </style>
+
+    <style name="ReportsListItem.HeaderText.Unread">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ReportsListItem.HeaderText.Read">
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <!-- Legend -->
+    <style name="ReportsList.Legend"></style>
+
+    <style name="ReportsList.Legend.Icon">
+        <item name="android:layout_width">@dimen/reports_list_legend_icon_size</item>
+        <item name="android:layout_height">@dimen/reports_list_legend_icon_size</item>
+    </style>
+
+    <style name="ReportsList.Legend.Text" parent="@style/TextTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/base_red_color</item>        
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <!-- DetailActivity -->
+
+
+    <!-- General Info Fragment -->
+    <style name="GeneralInfoContainer"></style>
+
+    <style name="GeneralInfoContainer.ComponentLayout">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="GeneralInfoContainer.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layoutDirection" tools:targetApi="17">rtl</item>
+        <item name="android:textDirection" tools:targetApi="17">anyRtl</item>
+    </style>
+
+    <!-- End of General Info Fragment Style -->
+
+
+    <!-- Tech Info Fragment -->
+    <style name="TechInfoContainer"></style>
+
+    <style name="TechInfoContainer.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TechInfoContainer.TextView.Value"></style>
+
+    <style name="TechInfoContainer.Seekbar">
+
+        <!-- Important! keep the paddingTop and paddingBottom because without it the SeekBar is distorted -->
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TechInfoContainer.EditableSeekField">
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- End of Tech Info Fragment -->
+
+
+    <!-- End of DetailActivity -->
+
+
+    <!-- Patient Report -->
+
+    <style name="PatientReportField"></style>
+
+    <style name="PatientReportField.TextView" parent="@style/TextHeaderSub">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layoutDirection" tools:targetApi="17">rtl</item>
+        <item name="android:textDirection" tools:targetApi="17">rtl</item>
+    </style>
+
+    <!-- End of Patient Report -->
+
+
+    <!-- Style for the Show Original Message button -->
+    <style name="btnStyleOrange" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/custom_btn_orange</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+</resources>

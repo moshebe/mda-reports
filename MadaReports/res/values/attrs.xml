@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="EditableSeekField">
+        <attr name="fieldLabel" format="string" />
+        <attr name="maxValue" format="integer" />
+        <attr name="positiveButtonText" format="reference" />
+        <attr name="negativeButtonText" format="reference" />
+    </declare-styleable>
+
+
+    <!-- Patient Report Field -->
+    <!--
+    <attr name="PatientReportFieldInputTypeEnum" format="enum">
+        <enum name="number" value="1" />
+        <enum name="string" value="2" />
+    </attr>
+    -->
+
+    <declare-styleable name="PatientReportField">
+        <attr name="labelText" format="reference" />
+        <attr name="inputType">
+            <enum name="number" value="1" />
+            <enum name="string" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- End of Patient Report Field -->
+
+    <declare-styleable name="BezelImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+
+</resources>

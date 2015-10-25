@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvAboutUsDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvWhoWeAre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:padding="15dp"
+        android:text="@string/about_us_activity_about_us_details"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/imgEmailUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAboutUsDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:src="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/tvWhoWeAre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imgEmailUs"
+        android:layout_marginTop="15dp"
+         android:layout_centerHorizontal="true"
+        android:text="@string/about_us_activity_who_we_are"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

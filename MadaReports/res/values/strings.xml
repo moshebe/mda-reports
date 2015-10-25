@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Values -->
+<resources>
+
+    <!-- General Application Strings -->
+    <string name="app_name">MDA Reports</string>
+    <string name="contact_email_address">MoGal.Development@gmail.com</string>
+    <string name="deleted_successfuly">Deleted Successfully</string>
+
+    <plurals name="notification_d_new_messages">
+        <item quantity="one">one unread report</item>
+        <item quantity="other">%d unread reports</item>
+    </plurals>
+
+    <!-- Titles -->
+    <string name="title_report_detail">Report Details</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_treatments">Treatments</string>
+    <string name="title_patient_report">Patient Report</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_donate_us">Donate Us</string>
+
+    <!-- Share exported format titles -->
+    <string name="share_title_general_details">Report Details</string>
+    <string name="share_title_technical_details">Technical Details</string>
+    <string name="share_title_treatments">Treatments</string>
+    <!-- End of General Application Strings -->
+
+
+    <!-- Action Bar -->
+    <string name="action_bar_settings">Settings</string>
+    <string name="action_bar_search_view_hint">Search...</string>
+    <string name="action_bar_add">Add</string>
+    <string name="action_bar_save">Save</string>
+    <string name="action_bar_delete">Delete</string>
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_share">Share</string>
+
+    <!-- Action bar - Searchable -->
+    <string name="searchable_label">Search</string>
+    <string name="searchable_hint">Search...</string>
+
+    <!-- End of Action Bars -->
+
+
+    <!-- Drawer -->
+    <string name="drawer_open_accessibility">Open</string>
+    <string name="drawer_close_accessibility">Close</string>
+    <!-- Drawer - Menu Items -->
+    <string name="drawer_menu_item_home">Home</string>
+    <string name="drawer_menu_item_category_reports">Reports</string>
+    <string name="drawer_menu_item_category_general">General</string>
+    <string name="drawer_menu_item_reports_all">All</string>
+    <string name="drawer_menu_item_reports_unread">Unread</string>
+    <string name="drawer_menu_item_reports_unreported">Unreported</string>
+    <string name="drawer_menu_item_patience_report">Patient Report</string>
+    <string name="drawer_menu_item_donate_us">Donate Us</string>
+    <string name="drawer_menu_item_settings">Settings</string>
+    <string name="drawer_menu_item_about_us">About Us</string>
+    <!-- End of Drawer -->
+
+
+    <!-- ReportsList -->
+    <string name="no_reports">No Reports...</string>
+    <!-- ReportsList Action Bar -->
+    <string name="reportslist_activity_action_bar_share_message">Send all reports details to...</string>
+    <!-- ReportsList Legend -->
+    <string name="reports_list_legend_reported">Reported</string>
+    <string name="reports_list_legend_unreported">Unreported</string>
+    <string name="reports_list_legend_has_location">Has location</string>
+    <!-- End of ReportsList Activity -->
+
+
+    <!-- Code Tables -->
+    <string name="code_table_dialog_treatment_title">Treatments</string>
+    <string name="code_table_dialog_edit_positive_button">Save</string>
+    <string name="code_table_dialog_add_positive_button">Add</string>
+    <string name="code_table_dialog_edit_success">Record was saved</string>
+    <string name="code_table_dialog_add_success">Record was added</string>
+    <string name="code_table_dialog_delete_success">Record was deleted</string>
+    <string name="code_table_dialog_delete_unsuccess">Cannot delete this record</string>
+    <string name="code_table_dialog_options_edit">Edit</string>
+    <string name="code_table_dialog_options_delete">Delete</string>
+    <!-- End of Code Tables -->
+
+
+    <!-- Preferences Settings -->
+    <!-- Keys -->
+    <string name="prefrences_key_ringtone_uri">RINGTONE_URI</string>
+    <string name="prefrences_key_sound_enabled">SOUND_ENABLED</string>
+    <string name="prefrences_key_vibrate_enabled">VIBRATE_ENABLED</string>
+    <string name="prefrences_key_sender_name">SENDER_NAME</string>
+    <string name="prefrences_key_sender_numbers">SENDER_NUMBERS</string>
+    <string name="prefrences_key_abort_broadcast">ABORT_BROADCAST</string>
+    <string name="prefrences_key_volunteer_id">VOLUNTEER_ID</string>
+    <string name="prefrences_key_volunteer_name">VOLUNTEER_NAME</string>
+    <string name="prefrences_key_volunteer_mirs">VOLUNTEER_MIRS</string>
+    <string name="prefrences_key_spatial_telephony_center_number">SPATIAL_TELE_CENTER_NUMBER</string>
+
+    <!-- Titles -->
+    <string name="prefrences_title_vibrate_enabled">Vibrate</string>
+    <string name="prefrences_title_sound_enabled">Sound</string>
+    <string name="prefrences_title_ringtone_uri">Ringtone</string>
+    <string name="prefrences_title_treatments">Treatments</string>
+    <string name="prefrences_title_abort_broadcast">Abort SMS</string>
+    <string name="prefrences_title_volunteer_id">Volunteer ID</string>
+    <string name="prefrences_title_volunteer_name">Volunteer Name</string>
+    <string name="prefrences_title_volunteer_mirs">Volunteer MIRS</string>
+    <string name="prefrences_title_spatial_telephony_center_number">Sp. Center Number</string>
+    <string name="prefrences_category_notifications_key">CATGRY_NOTIFICATIONS</string>
+    <string name="prefrences_category_code_tables_key">CATGRY_CODE_TABLES</string>
+    <string name="prefrences_category_volunteer_details_key">VOLUNTEER_DETAILS_TABLES</string>
+    <string name="prefrences_category_spatial_telephony_center_key">SPATIAL_TELEPHONY_CENTER_DETAILS_TABLES</string>
+
+    <!-- Summaries -->
+    <string name="prefrences_summary_vibrate_enabled">Enable vibrate</string>
+    <string name="prefrences_summary_sound_enabled">Enable sound</string>
+    <string name="prefrences_summary_ringtone_uri">Chosen ringtone</string>
+    <string name="prefrences_summary_treatments">Manage Treatments</string>
+    <string name="prefrences_summary_abort_broadcast">Abort SMS to user</string>
+    <string name="prefrences_summary_spatial_telephony_center_number">The spatial telephony center number which the patients reports should be sent to</string>
+
+    <!-- Categories -->
+    <string name="prefrences_category_notifications_title">Notifications</string>
+    <string name="prefrences_category_code_tables_title">Tables</string>
+    <string name="prefrences_category_volunteer_details_title">Volunteer Details</string>
+    <string name="prefrences_category_spatial_telephony_center_title">Spatial Telephony Center</string>
+    <!-- End of Preferences Settings -->
+
+
+    <!-- Home -->
+    <string name="bar_title_all">All</string>
+    <string name="bar_title_unread">Unread</string>
+    <string name="bar_title_unreported">Unreported in Website</string>
+
+    <!-- Details Activity -->
+    <string name="detail_activity_report_saved">Report saved</string>
+    <string name="detail_activity_dialog_delete_are_you_sure">Are you sure you want to delete?</string>
+    <!-- Detail Activity Action Bar -->
+    <string name="menu_refresh_data">Refresh Details</string>
+    <string name="menu_share_message">Send reports detail to...</string>
+    <string name="menu_show_original_message">Show original message</string>
+    <!-- Tabs Titles -->
+    <string name="fragment_general_info_general_info_tab_title">General</string>
+    <string name="fragment_tech_info_title">Technical</string>
+    <string name="fragment_treatments_to_report_title">Treatments</string>
+    <!-- General Info Fragment -->
+    <string name="fragment_general_info_report_id">Report ID</string>
+    <string name="fragment_general_info_address">Address</string>
+    <string name="fragment_general_info_pin_location">Pin Location</string>
+    <string name="fragment_general_info_description">Description</string>
+    <string name="fragment_general_info_notes">Notes</string>
+    <string name="fragment_general_info_is_reported">Is Reported in the website?</string>
+    <string name="fragment_general_info_title_dialog_original_message">Original message</string>
+    <!-- Tech Info Fragment -->
+    <string name="fragment_tech_info_pulse">Pulse</string>
+    <string name="fragment_tech_info_sugar">Sugar</string>
+    <string name="fragment_tech_info_breath">Breath</string>
+    <string name="fragment_tech_info_blood_pressure">Blood Pressure</string>
+    <string name="fragment_tech_info_dialog_title">change value</string>
+    <string name="fragment_tech_info_dialog_positive_button">OK</string>
+    <string name="fragment_tech_info_dialog_negative_button">Cancel</string>
+    <!-- Treatment To Report Fragment -->
+    <string name="fragment_treatments_to_report_all_treatments_in_db">All treatments</string>
+    <string name="fragment_treatments_to_report_current_treatments_to_report">Treated</string>
+
+    <!-- End of Details Activity -->
+
+
+    <!-- Report Location -->
+    <string name="report_location_saving_message">Saving report, please wait...</string>
+    <string name="report_location_marker_title">Event location</string>
+
+    <!-- Default Treatments -->
+    <string name="treatments_oxygen_enrichment">Oxygen Enrichment</string>
+    <string name="treatments_opening_airway">Opening Airway</string>
+    <string name="treatments_artificial_respiration">Artificial Respiration</string>
+    <string name="treatments_connecting_defibrillator">Connecting Defibrillator</string>
+    <string name="treatments_cardiac_massage">Cardiac Massage</string>
+    <string name="treatments_stopping_hemorrhage">Stopping Hemorrhage</string>
+    <string name="treatments_infusion">Infusion</string>
+    <string name="treatments_headvise">Headvise</string>
+    <string name="treatments_collar">Collar</string>
+    <string name="treatments_backboard">Backboard</string>
+    <string name="treatments_deliver">Deliver</string>
+    <string name="treatments_rescue">Rescue</string>
+    <string name="treatments_administrate_glucogel">Administrate GlucoGel</string>
+    <string name="treatments_administrate_aspirin">Administrate Aspirin</string>
+
+    <!-- Patient Report Activity -->
+    <string name="patient_report_activity_visa_number">Visa</string>
+    <string name="patient_report_activity_operational_code">Operational Code</string>
+    <string name="patient_report_activity_commitment">Commitment</string>
+    <string name="patient_report_activity_sum">Sum</string>
+    <string name="patient_report_activity_form_number">Form</string>
+    <string name="patient_report_activity_code">Code</string>
+    <string name="patient_report_patient_id">Patient ID</string>
+    <string name="patient_report_activity_first_name">First Name</string>
+    <string name="patient_report_activity_family_name">Family Name</string>
+    <string name="patient_report_activity_send">Send</string>
+    <string name="patient_report_invalid_patient_id">The patient ID is invalid</string>
+
+    <!-- Donate Us -->
+    <string name="donate_us_donation">Donate!</string>
+    <string name="donate_us_thank_you">Thank you!</string>
+
+    <!-- Map -->
+    <string name="map_container_help">Long press to pin the location</string>
+
+    <!-- About Us Activity -->
+    <string name="about_us_activity_who_we_are">Who we Are?</string>
+    <string name="about_us_activity_about_us_details">MoGal Development is a developers team that experts mobile and server-side applications.\nFeel free contact us for every kind of request, review and recommendation.\nWe will be more than happy read your comments and reply them as soon as we can.</string>
+    <string name="about_us_no_email_clients_installed">There are no email clients installed</string>
+    <string name="about_us_sending_email_dialog">Sending Email</string>
+
+    <!-- Help - showcase -->
+    <string name="help_showcase_drawer_menu_title">Menu</string>
+    <string name="help_showcase_drawer_menu_description">The menu can be shown and hide by clicking the application icon or swiping the menu from the side</string>
+    <string name="help_showcase_report_details_location_title">Map</string>
+    <string name="help_showcase_report_details_location_description">The location can be determined by marking the exactly position on the map</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <color name="base_red_color">#ec5353</color>
+    <color name="base_gray_color">#e0dcdc</color>
+  
+    <!-- Text -->
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#77000000</color>
+    <color name="body_text_3">#33000000</color>
+    <color name="body_text_disabled">#44000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="body_text_1_positive">#ff4CAA47</color>
+    <!-- <color name="accent_1">#ff4d90fe</color> -->
+    <color name="accent_1">#ffff614c</color>
+    <color name="dark_divider">#32000000</color>
+    <color name="activity_bgcolor">#F5FFFA</color>
+    <color name="activity_text_color">@color/body_text_2</color>
+    <color name="reports_list_item_read_textcolor">#8b8682</color>
+    <color name="reports_list_item_unread_textcolor">@color/activity_text_color</color>
+    <color name="actionbar_text_color">@color/base_gray_color</color>
+    <color name="actionbar_tab_text_color">@color/base_red_color</color>
+    <color name="actionbar_color">@color/base_red_color</color>
+
+    <!-- Home statistics colors -->
+    <color name="bar_color_all_reports">#99CC00</color>
+    <color name="bar_color_unread_reports">#FF464A</color>
+    <color name="bar_color_unreported_reports">#FFBB33</color>
+    
+    <!-- Reports List -->
+    <color name="reports_list_item_footer_background">#fafafa</color>
+
+    <!-- unused - delete -->
+    <color name="unselected_tab">#FA0000</color>
+    <color name="selected_tab">#960000</color>
+    <color name="unread_item_bgcolor">#ffffff</color>
+    <color name="reports_list_legened_background">@color/base_gray_color</color>
+
+</resources>

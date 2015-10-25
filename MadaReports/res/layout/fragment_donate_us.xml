@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDonateSum"
+        style="@style/TextHeader2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBarDonation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="5$"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/imgGoodRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ratingBarDonation"
+        android:layout_below="@+id/ratingBarDonation"
+        android:src="@drawable/ic_action_good" />
+
+    <ImageView
+        android:id="@+id/imgBadRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBarDonation"
+        android:layout_alignTop="@+id/imgGoodRate"
+        android:src="@drawable/ic_action_bad" />
+
+    <Button        
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/btnDonate"
+        style="@style/btnStyleOrange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvDonateSum"
+        android:layout_marginTop="69dp"
+        android:text="@string/donate_us_donation" />
+
+    <RatingBar
+        android:id="@+id/ratingBarDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/bottom_line_background"
+        android:numStars="5"        
+        android:progressDrawable="@drawable/custom_ratingbar_selector"
+        android:stepSize="1.0" />
+
+</RelativeLayout>

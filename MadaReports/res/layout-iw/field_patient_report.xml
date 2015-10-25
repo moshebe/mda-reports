@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" >
+
+    <EditText
+        android:id="@+id/txtPatientReportValue"
+        android:layout_width="@dimen/patient_report_field_edittext_width"
+        android:layout_height="@dimen/patient_report_field_height"
+        android:layout_alignParentLeft="true"
+        android:inputType="textShortMessage"
+        android:padding="@dimen/patient_report_field_padding" />
+
+    <TextView
+        android:id="@+id/tvPatientReportLabel"
+        style="@style/PatientReportField.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/patient_report_field_height"
+        android:layout_alignParentRight="true"
+        android:text="@string/patient_report_activity_family_name" />
+
+</RelativeLayout>   

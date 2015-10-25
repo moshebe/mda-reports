@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imgEditSeekField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <SeekBar
+        android:id="@+id/seekEditSeekField"
+        style="@style/TechInfoContainer.Seekbar"
+        android:layout_width="214dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imgEditSeekField"
+        android:max="@integer/max_pulse" />
+
+    <TextView
+        android:id="@+id/tvValueEditSeekField"
+        style="@style/TechInfoContainer.TextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="30dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvLabelEditSeekField"
+        style="@style/TechInfoContainer.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/seekEditSeekField"
+        android:layout_alignParentLeft="true"
+        android:text="label" />
+
+</RelativeLayout>

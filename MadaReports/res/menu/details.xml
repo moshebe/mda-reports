@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:mada="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@android:drawable/ic_menu_save"
+        mada:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_bar_save"/>
+      <item
+        android:id="@+id/menu_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        mada:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_bar_delete"/>
+    <item
+        android:id="@+id/menu_sync"
+        android:icon="@drawable/ic_menu_refresh"
+        mada:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/menu_refresh_data"/>
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        mada:showAsAction="ifRoom"
+        android:title="@string/action_bar_share"/>    
+    <item
+        android:id="@+id/menu_show_original_message"        
+        mada:showAsAction="never"
+        android:title="@string/menu_show_original_message"/>
+
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/llDialogBloodPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/txtBloodPressureValueHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:inputType="number"
+            android:text="120" />
+
+        <TextView
+            android:id="@+id/tvDialogBloodPressureSlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+        <EditText
+            android:id="@+id/txtBloodPressureValueLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:text="60" />
+    </LinearLayout>
+
+</RelativeLayout>

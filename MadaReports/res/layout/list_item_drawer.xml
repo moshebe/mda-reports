@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/imgDrawerItemIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"        
+        android:layout_marginLeft="5dp"
+        android:src="@android:drawable/ic_menu_preferences" />
+
+    <TextView
+        android:id="@+id/tvDrawerItemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgDrawerItemIcon"
+        android:text="Settings"        
+        style="@style/TextTitle"
+        android:textSize="20sp" />
+
+</RelativeLayout>

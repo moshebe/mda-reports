@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/reports_list_legened_background"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/imgReportsListLegenedReported"
+        style="@style/ReportsList.Legend.Icon"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/reports_list_legend_margin_between_text_and_icon"
+        android:src="@drawable/ic_action_accept" />
+
+    <TextView
+        android:id="@+id/tvReportsListLegenedReported"
+        style="@style/ReportsList.Legend.Text"
+        android:layout_alignBottom="@+id/imgReportsListLegenedReported"
+        android:layout_marginRight="@dimen/reports_list_legend_margin_between_parts"
+        android:layout_toRightOf="@id/imgReportsListLegenedReported"
+        android:text="@string/reports_list_legend_reported" />
+
+    <ImageView
+        android:id="@+id/imgReportsListLegenedNotReported"
+        style="@style/ReportsList.Legend.Icon"
+        android:layout_marginRight="@dimen/reports_list_legend_margin_between_text_and_icon"
+        android:layout_toRightOf="@id/tvReportsListLegenedReported"
+        android:src="@drawable/ic_action_warning" />
+
+    <TextView
+        android:id="@+id/tvReportsListLegenedNotReported"
+        style="@style/ReportsList.Legend.Text"
+        android:layout_alignBottom="@+id/imgReportsListLegenedNotReported"
+        android:layout_marginRight="@dimen/reports_list_legend_margin_between_parts"
+        android:layout_toRightOf="@id/imgReportsListLegenedNotReported"
+        android:text="@string/reports_list_legend_unreported" />
+
+    <ImageView
+        android:id="@+id/imgReportsListLegenedLocation"
+        style="@style/ReportsList.Legend.Icon"
+        android:layout_marginRight="@dimen/reports_list_legend_margin_between_text_and_icon"
+        android:layout_toRightOf="@id/tvReportsListLegenedNotReported"
+        android:src="@drawable/ic_action_place" />
+
+    <TextView
+        android:id="@+id/tvReportsListLegenedLocation"
+        style="@style/ReportsList.Legend.Text"
+        android:layout_alignBottom="@+id/imgReportsListLegenedLocation"
+        android:layout_toRightOf="@id/imgReportsListLegenedLocation"
+        android:text="@string/reports_list_legend_has_location" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Nofiticaions Category -->
+    <PreferenceCategory
+        android:key="@string/prefrences_category_notifications_key"
+        android:title="@string/prefrences_category_notifications_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/prefrences_key_abort_broadcast"
+            android:summary="@string/prefrences_summary_abort_broadcast"
+            android:title="@string/prefrences_title_abort_broadcast" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefrences_key_sound_enabled"
+            android:summary="@string/prefrences_summary_sound_enabled"
+            android:title="@string/prefrences_title_sound_enabled" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefrences_key_vibrate_enabled"
+            android:summary="@string/prefrences_summary_vibrate_enabled"
+            android:title="@string/prefrences_title_vibrate_enabled" />
+
+        <RingtonePreference
+            android:key="@string/prefrences_key_ringtone_uri"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="false"
+            android:summary="@string/prefrences_summary_ringtone_uri"
+            android:title="@string/prefrences_title_ringtone_uri" />
+    </PreferenceCategory>
+
+    <!-- Code Tables Category -->
+    <PreferenceCategory
+        android:key="@string/prefrences_category_code_tables_key"
+        android:title="@string/prefrences_category_code_tables_title" >
+        <Preference
+            android:summary="@string/prefrences_summary_treatments"
+            android:title="@string/prefrences_title_treatments" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.mdareports.ui.activities.TreatmentsActivity"
+                android:targetPackage="com.mdareports" />
+        </Preference>
+    </PreferenceCategory>
+
+    <!-- Volunteers Details Category -->
+    <PreferenceCategory
+        android:key="@string/prefrences_category_volunteer_details_key"
+        android:title="@string/prefrences_category_volunteer_details_title" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/prefrences_key_volunteer_id"
+            android:title="@string/prefrences_title_volunteer_id" />
+        <EditTextPreference
+            android:key="@string/prefrences_key_volunteer_name"
+            android:title="@string/prefrences_title_volunteer_name" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/prefrences_key_volunteer_mirs"
+            android:title="@string/prefrences_title_volunteer_mirs" />
+    </PreferenceCategory>
+
+    <!-- Spatial Telephony Center Category -->
+    <PreferenceCategory
+        android:key="@string/prefrences_category_spatial_telephony_center_key"
+        android:title="@string/prefrences_category_spatial_telephony_center_title" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="@string/prefrences_key_spatial_telephony_center_number"
+            android:title="@string/prefrences_title_spatial_telephony_center_number" />       
+    </PreferenceCategory>
+
+</PreferenceScreen>

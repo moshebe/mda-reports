@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvDrawerCategory"
+    style="@style/TextHeader2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="2dip"
+    android:paddingLeft="5dip"
+    android:paddingTop="2dip"
+    android:text="MOSHE HEADER" 
+    android:clickable="false"/>

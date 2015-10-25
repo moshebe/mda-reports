@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="code_table_dialog_options">
+        <item>@string/code_table_dialog_options_edit</item>
+        <item>@string/code_table_dialog_options_delete</item>
+    </array>
+    
+    <array name="default_treatments">
+        <item>@string/treatments_oxygen_enrichment</item>
+        <item>@string/treatments_opening_airway</item>        
+        <item>@string/treatments_artificial_respiration</item>        
+        <item>@string/treatments_connecting_defibrillator</item>
+        <item>@string/treatments_cardiac_massage</item>
+        <item>@string/treatments_stopping_hemorrhage</item>
+        <item>@string/treatments_infusion</item>
+        <item>@string/treatments_headvise</item>
+        <item>@string/treatments_collar</item>        
+        <item>@string/treatments_backboard</item>
+        <item>@string/treatments_deliver</item>        
+        <item>@string/treatments_rescue</item>
+        <item>@string/treatments_administrate_glucogel</item>                
+        <item>@string/treatments_administrate_aspirin</item>         
+    </array>
+    
+    
+
+</resources>

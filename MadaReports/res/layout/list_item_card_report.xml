@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!--
+    This layout is used for the background and the margin
+    which makes the "card" effect
+
+
+    -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/reports_list_item_card_margin_between_cards"
+        android:layout_marginLeft="@dimen/reports_list_item_card_margin_sides"
+        android:layout_marginRight="@dimen/reports_list_item_card_margin_sides"
+        android:layout_marginTop="@dimen/reports_list_item_card_margin_between_cards"
+        android:background="@drawable/card_item_background" >
+
+        <RelativeLayout
+            android:id="@+id/rlReportListCardHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <ImageView
+                android:id="@+id/imgReportIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_action_read" />
+
+            <ImageView
+                android:id="@+id/imgReportIsReported"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_action_accept" />
+
+            <ImageView
+                android:id="@+id/imgHasLocation"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/imgReportIsReported"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_action_place" />
+
+            <com.mdareports.ui.general.EllipsizedTextView
+                android:id="@+id/tvReportDescription"
+                style="@style/ReportsListItem.HeaderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/imgReportIcon"
+                android:layout_toRightOf="@id/imgReportIsReported"
+                android:ellipsize="end"
+                android:singleLine="false"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus nulla nunc, non molestie orci blandit vel. Nunc blandit pharetra tellus, a lacinia est vulputate non" />
+
+            <TextView
+                android:id="@+id/tvReportAddress"
+                style="@style/ReportsListItem.SubHeaderText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvReportDescription"
+                android:layout_toLeftOf="@id/imgReportIcon"
+                android:layout_toRightOf="@id/imgReportIsReported"
+                android:text="Lorem ipsum dolor sit ameta lacinia est vulputate non" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlReportListCardFooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/reports_list_item_footer_background" >
+
+            <View
+                android:id="@+id/vHrSeperator"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentTop="true"
+                android:background="#e5e5e5" />
+
+            <TextView
+                android:id="@+id/tvReportId"
+                style="@style/ReportsListItem.FooterText"
+                android:layout_alignBaseline="@+id/imgReportReceivedAt"
+                android:layout_alignBottom="@+id/imgReportReceivedAt"
+                android:layout_alignParentLeft="true"
+                android:text="12#" />
+
+            <TextView
+                android:id="@+id/tvReportReceivedAt"
+                style="@style/ReportsListItem.FooterText"
+                android:layout_alignBaseline="@id/tvReportId"
+                android:layout_alignBottom="@id/tvReportId"
+                android:layout_toLeftOf="@+id/imgReportReceivedAt"
+                android:text="21/12/2013 15:11" />
+
+            <ImageView
+                android:id="@+id/imgReportReceivedAt"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:paddingTop="3dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_action_time" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

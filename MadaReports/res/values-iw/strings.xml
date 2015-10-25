@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Values EN -->
+<resources>
+
+    <!-- General Application Strings -->
+    <string name="app_name">דיווחי מדא</string>
+	
+	<string name="deleted_successfuly">נמחק בהצלחה</string>    
+    
+    <plurals name="notification_d_new_messages">
+        <item quantity="one">דיווח אחד שלא נקרא</item>
+        <item quantity="other">%d דיווחים שלא נקראו</item>
+    </plurals>
+        
+    <!-- Titles -->
+    <string name="title_report_detail">פרטי דיווח</string>
+    <string name="title_settings">הגדרות</string>
+    <string name="title_treatments">טיפולים</string>
+    <string name="title_patient_report">טופס חולה/נפגע</string>
+    <string name="title_about_us">אודות</string>
+    <string name="title_donate_us">עזרו לנו</string>    
+                
+    <!-- Share exported format titles -->
+    <string name="share_title_general_details">פרטי מקרה</string>
+    <string name="share_title_technical_details">פרטים טכניים</string>
+    <string name="share_title_treatments">טיפולים שנתנו</string>
+    <!-- End of General Application Strings -->
+
+
+    <!-- Action Bar -->
+    <string name="action_bar_settings">הגדרות</string>
+    <string name="action_bar_search_view_hint">חיפוש...</string>
+    <string name="action_bar_add">הוספה</string>
+    <string name="action_bar_save">שמור</string>
+    <string name="action_bar_delete">מחיקה</string>
+    <string name="action_bar_search">חפש</string>
+    <string name="action_bar_share">שתף</string>
+    
+    <!-- Action bar - Searchable -->
+    <string name="searchable_label">חיפוש</string>
+    <string name="searchable_hint">חיפוש...</string>    
+    
+    <!-- End of Action Bars -->
+
+
+	<!-- Drawer -->
+    <string name="drawer_open_accessibility">פתיחה</string>
+    <string name="drawer_close_accessibility">סגירה</string>
+    <!-- Drawer - Menu Items -->
+	<string name="drawer_menu_item_home">ראשי</string>
+	<string name="drawer_menu_item_category_reports">דיווחים</string>
+	<string name="drawer_menu_item_category_general">כללי</string>
+    <string name="drawer_menu_item_reports_all">הכל</string>
+    <string name="drawer_menu_item_reports_unread">לא נקראו</string>
+    <string name="drawer_menu_item_reports_unreported">לא דווחו</string>    
+    <string name="drawer_menu_item_patience_report">טופס חולה/נפגע</string>
+    <string name="drawer_menu_item_donate_us">עזרו לנו</string>
+    <string name="drawer_menu_item_settings">הגדרות</string>
+    <string name="drawer_menu_item_about_us">אודות</string>                         
+    <!-- End of Drawer -->
+
+    <!-- ReportsList -->
+  	<string name="no_reports">אין דיווחים...</string>
+    <!-- ReportsList Action Bar -->
+    <string name="reportslist_activity_action_bar_share_message">שלח את פרטי כל הדיווחים ל...</string>
+    <!-- ReportsList Legend -->
+    <string name="reports_list_legend_reported">דווח</string>
+    <string name="reports_list_legend_unreported">לא דווח</string>
+    <string name="reports_list_legend_has_location">נבחר מיקום</string>
+    <!-- End of ReportsList Activity -->
+
+
+    <!-- Code Tables -->
+    <string name="code_table_dialog_treatment_title">טיפולים</string>
+    <string name="code_table_dialog_edit_positive_button">שמירה</string>
+    <string name="code_table_dialog_add_positive_button">הוספה</string>
+    <string name="code_table_dialog_edit_success">הרשומה נשמרה</string>
+    <string name="code_table_dialog_add_success">הרשומה נוספה</string>
+    <string name="code_table_dialog_delete_success">הרשומה נמחקה</string>
+    <string name="code_table_dialog_delete_unsuccess">לא ניתן למחוק רשומה</string>
+    <string name="code_table_dialog_options_edit">עריכה</string>
+    <string name="code_table_dialog_options_delete">מחיקה</string>    
+    <!-- End of Code Tables -->
+
+
+    <!-- Preferences Settings -->
+    <!-- Titles -->
+    <string name="prefrences_title_vibrate_enabled">רטט</string>
+    <string name="prefrences_title_sound_enabled">צליל</string>
+    <string name="prefrences_title_ringtone_uri">רינגטון</string>
+    <string name="prefrences_title_treatments">טיפולים</string>
+    <string name="prefrences_title_abort_broadcast">חסימת הודעה</string>
+    <string name="prefrences_title_volunteer_id">מספר כונן</string>
+    <string name="prefrences_title_volunteer_name">שם כונן</string>
+    <string name="prefrences_title_volunteer_mirs">מספר מירס</string>
+    <string name="prefrences_title_spatial_telephony_center_number">מספר מוקד מרחבי</string>
+    
+    <!-- Summaries -->
+    <string name="prefrences_summary_vibrate_enabled">האם לבצע רטט בעת קבלת התראה</string>
+    <string name="prefrences_summary_sound_enabled">האם להפעיל את הצלצול הנבחר בעת קבלת התראה</string>
+    <string name="prefrences_summary_ringtone_uri">הצלצול הנבחר בעת קבלת התראה</string>
+    <string name="prefrences_summary_treatments">ניהול טיפולים</string>
+    <string name="prefrences_summary_abort_broadcast">האם למנוע מאפליקציות SMS קבלת ההודעה</string>
+    <string name="prefrences_summary_spatial_telephony_center_number">המספר הסלולרי  של המוקד המרחבי אליו נשלחים דיווחי המטופלים</string>
+    
+    <!-- Categories -->
+    <string name="prefrences_category_notifications_title">התראות</string>
+    <string name="prefrences_category_code_tables_title">טבלאות</string>
+    <string name="prefrences_category_volunteer_details_title">פרטי כונן</string>
+    <string name="prefrences_category_spatial_telephony_center_title">מוקד מרחבי</string>
+    <!-- End of Preferences Settings -->
+
+
+    <!-- Home -->
+	<string name="bar_title_all">הכל</string>
+	<string name="bar_title_unread">לא נקראו</string>
+	<string name="bar_title_unreported">לא דווחו באתר</string>
+
+    <!-- Details Activity -->
+    <string name="detail_activity_report_saved">הדיווח נשמר</string>
+    <string name="detail_activity_dialog_delete_are_you_sure">האם ברצונך לבצע מחיקה?</string>
+    <!-- Detail Activity Action Bar -->
+    <string name="menu_refresh_data">רענן נתונים</string>
+    <string name="menu_share_message">שלח את פרטי הדיווח ל…</string>
+    <string name="menu_show_original_message">הצג הודעה מקורית</string>
+    <!-- Tabs Titles -->
+    <string name="fragment_general_info_general_info_tab_title">כללי</string>
+    <string name="fragment_tech_info_title">טכני</string>
+    <string name="fragment_treatments_to_report_title">טיפולים</string>
+    <!-- General Info Fragment -->
+    <string name="fragment_general_info_report_id">מספר מקרה</string>
+    <string name="fragment_general_info_address">כתובת</string>
+    <string name="fragment_general_info_pin_location">בחר מיקום</string>
+    <string name="fragment_general_info_description">תיאור</string>
+    <string name="fragment_general_info_notes">הערות</string>
+    <string name="fragment_general_info_is_reported">דווח באתר?</string>    
+    <string name="fragment_general_info_title_dialog_original_message">הודעה מקורית</string>
+    <!-- Tech Info Fragment -->
+    <string name="fragment_tech_info_pulse">דופק</string>
+    <string name="fragment_tech_info_sugar">סוכר</string>
+    <string name="fragment_tech_info_breath">נשימה</string>
+    <string name="fragment_tech_info_blood_pressure">לחץ דם</string>
+    <string name="fragment_tech_info_dialog_title">שנה ערך</string>
+    <string name="fragment_tech_info_dialog_positive_button">אישור</string>
+    <string name="fragment_tech_info_dialog_negative_button">ביטול</string>
+    <!-- Treatment To Report Fragment -->
+    <string name="fragment_treatments_to_report_all_treatments_in_db">רשימת טיפולים</string>
+    <string name="fragment_treatments_to_report_current_treatments_to_report">טיפולים שבוצעו באירוע</string>
+    
+    <!-- End of Details Activity -->
+
+	<!-- Report Location -->
+	<string name="report_location_saving_message">שומר מיקום, רק רגע..</string>
+	<string name="report_location_marker_title">מיקום האירוע</string>
+
+    <!-- Default Treatments -->
+    <string name="treatments_oxygen_enrichment">העשרה בחמצן</string>
+    <string name="treatments_opening_airway">פתיחת נתיב אוויר</string>
+    <string name="treatments_artificial_respiration">הנשמה</string>
+    <string name="treatments_connecting_defibrillator">חיבור לדפיברילטור</string>
+    <string name="treatments_cardiac_massage">עיסוי לב</string>
+    <string name="treatments_stopping_hemorrhage">עצירת שט\"ד</string>
+    <string name="treatments_infusion">עירוי</string>
+    <string name="treatments_headvise">מנייח ראש</string>
+    <string name="treatments_collar">צוארון</string>
+    <string name="treatments_backboard">לוח גב</string>
+    <string name="treatments_deliver">קבלת לידה</string>
+    <string name="treatments_rescue">חילוץ</string>
+    <string name="treatments_administrate_glucogel">מתן גלוקוג\'ל</string>
+    <string name="treatments_administrate_aspirin">מתן אספירין</string>
+
+
+    <!-- Patient Report Activity -->
+    <string name="patient_report_activity_visa_number">ויזה</string>
+    <string name="patient_report_activity_operational_code">קוד מבצעי</string>
+    <string name="patient_report_activity_commitment">התחייבות</string>
+    <string name="patient_report_activity_sum">סכום</string>
+    <string name="patient_report_activity_form_number">מס. טופס</string>
+    <string name="patient_report_activity_code">קוד</string>
+    <string name="patient_report_patient_id">תז</string>
+    <string name="patient_report_activity_first_name">שם פרטי</string>
+    <string name="patient_report_activity_family_name">שם משפחה</string>
+    <string name="patient_report_activity_send">שליחה</string>
+    <string name="patient_report_invalid_patient_id">תעודת זהות לא תקינה</string>
+    <!-- End of Patient Report Activity -->
+
+	<!-- Donate Us -->
+    <string name="donate_us_donation">עזרו לנו!</string>
+    <string name="donate_us_thank_you">תודה רבה!</string>
+
+    <!-- Map -->
+    <string name="map_container_help">לחץ לחיצה ארוכה לבחירת מיקום</string>
+
+    <!-- About Us Activity -->
+    <string name="about_us_activity_who_we_are">מי אנחנו?</string>
+    <string name="about_us_activity_about_us_details">אנו, צוות MoGal Development, מתמחים באפליקציות Mobile וצד שרת.\nהרגישו חופשי ליצור עמנו קשר בנוגע לכל פניה, המלצה וביקורת.\nאנו נשמח לקרוא את תגובותיכם, ונשתדל לענות לפניותיכם בהקדם האפשרי.</string>
+    <string name="about_us_no_email_clients_installed">לא מותקנת אפליקציה לשליחת דואר-אלקטרוני</string>    
+    
+    <!-- Help - showcase -->
+    <string name="help_showcase_drawer_menu_title">Menu</string>
+    <string name="help_showcase_drawer_menu_description">The menu can be shown and hide by clicking the application icon or swiping the menu from the side</string>
+    <string name="help_showcase_report_details_location_title">Map</string>
+    <string name="help_showcase_report_details_location_description">The location can be determined by marking the exactly position on the map</string>
+
+</resources>

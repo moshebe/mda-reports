@@ -1,0 +1,66 @@
+<resources>
+    
+    <!-- body content -->
+    <dimen name="element_spacing_normal">8dp</dimen>
+    <dimen name="content_padding_normal">16dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_diff_large_small">6sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Reports List -->
+    <dimen name="reports_list_item_image_size">100dp</dimen>
+    <dimen name="reports_list_item_card_margin_sides">15dp</dimen>
+    <dimen name="reports_list_item_card_margin_between_cards">8dp</dimen>
+    <dimen name="reports_list_item_card_footer_margin_top">5dp</dimen>
+    <dimen name="reports_list_item_card_textual_info_margin_left">15dp</dimen>
+    <dimen name="reports_list_item_card_reported_icon_width">35dp</dimen>
+    <dimen name="reports_list_item_card_reported_icon_height">28dp</dimen>
+    <!-- Reports List - Legend -->
+    <dimen name="reports_list_legend_icon_size">20dp</dimen>
+    <dimen name="reports_list_legend_margin_between_text_and_icon">5dp</dimen>
+    <dimen name="reports_list_legend_margin_between_parts">25dp</dimen>
+
+    <!-- Details  -->
+    
+    <!-- General Info -->
+    <dimen name="general_info_fields_width">200dp</dimen>
+    <dimen name="general_info_pin_location_height">40dp</dimen>
+    <dimen name="general_info_address_height">80dp</dimen>
+    <dimen name="general_info_description_height">150dp</dimen>
+    <dimen name="general_info_notes_height">100dp</dimen>
+    
+    <dimen name="general_info_is_reported_icon_size">40dp</dimen>
+    
+    <!--  -->
+    
+    <!-- End Of Details  -->    
+    
+    <!-- Patient Report -->
+    <dimen name="patient_report_field_padding">10dp</dimen>
+    <dimen name="patient_report_field_height">50dp</dimen>        
+    <dimen name="patient_report_field_edittext_width">150dp</dimen>
+    
+    <dimen name="patient_report_padding_between_fields">10dp</dimen>
+    
+    
+    <!-- Drawer -->
+    <dimen name="drawer_menu_width">230dp</dimen>
+    <dimen name="drawer_divider_height">15dp</dimen>
+    
+    <!-- Blood Pressure Field -->
+    <dimen name="blood_pressure_view_width_dimension">175dp</dimen>
+    <dimen name="blood_pressure_view_height_dimension">75dp</dimen>
+    
+    <dimen name="blood_pressure_view_height_dimension_dialog">80dp</dimen>
+
+    
+    
+    <dimen name="rating_bar_thumb_offset">0dp</dimen>
+    
+</resources>
