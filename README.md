@@ -1,3 +1,4 @@
+![alt tag](https://lh3.ggpht.com/MTPVRZ05J0-z39p12KP5pbZqElgrENfuk2IoZWn6MiulmoO69itR7eCLLEFOKqrZsw=w300)
 # mda-reports
 Android application for MDA volunteers to centralized thier reports for treatments and events
 
@@ -25,5 +26,5 @@ Any incoming SMS is parsed and analyzed. In case of detecting the MDA notificati
 extracts the relevant information and insert it to local database which later on used to display and edit these
 values using convinent UI and options for exporting centralized reports
 
-## Link for Play-Store:
+## Google Play Store Link
 https://play.google.com/store/apps/details?id=com.mdareports
