@@ -1,6 +1,6 @@
-![alt tag](https://lh3.ggpht.com/MTPVRZ05J0-z39p12KP5pbZqElgrENfuk2IoZWn6MiulmoO69itR7eCLLEFOKqrZsw=w300)
-# mda-reports
+# MDA Reports
 Android application for MDA volunteers to centralized thier reports for treatments and events
+![alt tag](https://lh3.ggpht.com/MTPVRZ05J0-z39p12KP5pbZqElgrENfuk2IoZWn6MiulmoO69itR7eCLLEFOKqrZsw=w300)
 
 ## Description
 This application was created in order to help volunteers to manage MDA reports and details of treatments.
